@@ -1,0 +1,11 @@
+.form-control {
+  border-radius: none;
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  height: 3rem;
+  font-size: 20px;
+  &:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(23, 177, 23);
+  }
+}

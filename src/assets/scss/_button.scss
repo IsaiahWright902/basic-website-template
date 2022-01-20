@@ -1,0 +1,55 @@
+@import "./_variables.scss";
+
+.styled-btn {
+  &,
+  &:link,
+  &:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem !important;
+    display: inline-block;
+    transition: all 0.6s !important;
+    position: relative;
+    font-size: 16px;
+    // Change for the <button> element
+    border: none;
+    cursor: pointer;
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(black, 0.6);
+    &::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
+    }
+  }
+
+  &:active,
+  &:focus {
+    transform: translateY(-1px);
+    box-shadow: 0.5rem 1rem rgba(black, 0.2);
+  }
+
+  &--create {
+    background-image: linear-gradient(
+      to left,
+      rgb(15, 126, 15),
+      rgb(23, 177, 23)
+    );
+    font-weight: 600;
+    color: white;
+  }
+
+  &::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+  }
+}
