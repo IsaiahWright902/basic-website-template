@@ -13,14 +13,9 @@ import { computed, onMounted, reactive } from "vue";
 export default {
   name: "Home",
   setup() {
-    const state = reactive({
-      message: "",
-    });
+    const state = reactive({});
     return {
       state,
-      showMessage() {
-        state.message = "Welcome to this app";
-      },
     };
   },
 };
