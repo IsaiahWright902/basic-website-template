@@ -9,7 +9,7 @@
       <div class="col-12 text-center">
         <p>This is a very lightweight vite build built for speed including:</p>
         <p>Bootstrap | Sass | Sweet Alert</p>
-
+        <p>Its Very cool</p>
       </div>
     </div>
   </div>
