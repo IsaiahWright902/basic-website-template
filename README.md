@@ -13,7 +13,7 @@ Vite | Vue 3 | Bootstrap 5 | Sass | Sweet Alert 2
 
 3. Run `git add dist -f`
 
-4. Run `git commit -m 'adding dist'
+4. Run `git commit -m 'adding dist`
 
 5. Finally run `git subtree push --prefix dist origin gh-pages` Now the dist folder is pushed to its own branch
 
