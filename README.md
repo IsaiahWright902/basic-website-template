@@ -5,6 +5,13 @@ This is a template for static websites that includes
 Vite | Vue 3 | Bootstrap 5 | Sass | Sweet Alert 2
 
 
+#Commands
+
+To Start Dev Server: `npm run dev`
+
+To build for deployment: `npm run build`
+
+
 # Deployment
 
 1. In the Vite config folder add `base:GithubRepoName/`
