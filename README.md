@@ -5,7 +5,7 @@ This is a template for static websites that includes
 Vite | Vue 3 | Bootstrap 5 | Sass | Sweet Alert 2
 
 
-#Commands
+# Commands
 
 To Start Dev Server: `npm run dev`
 
