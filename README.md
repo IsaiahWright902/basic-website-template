@@ -4,7 +4,6 @@ This is a template for static websites that includes
 
 Vite | Vue 3 | Bootstrap 5 | Sass | Sweet Alert 2
 
-
 # Deployment
 
 1. In the Vite config folder add `base:GithubRepoName/`
@@ -17,4 +16,4 @@ Vite | Vue 3 | Bootstrap 5 | Sass | Sweet Alert 2
 
 5. Finally run `git subtree push --prefix dist origin gh-pages` Now the dist folder is pushed to its own branch
 
-6. Go to the dist branch and deploy with github pages :) 
+6. Go to the dist branch and deploy with github pages :)

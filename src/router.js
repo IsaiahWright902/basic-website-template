@@ -1,4 +1,8 @@
-import { createRouter, createWebHashHistory } from "vue-router";
+import {
+  createRouter,
+  createWebHashHistory,
+  createWebHistory,
+} from "vue-router";
 
 function loadPage(page) {
   return () => import(`./pages/${page}.vue`);
@@ -9,6 +13,11 @@ const routes = [
     path: "/",
     name: "Home",
     component: loadPage("HomePage"),
+  },
+  {
+    path: "/test",
+    name: "Test",
+    component: loadPage("TestPage"),
   },
 ];
 
